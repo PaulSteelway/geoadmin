@@ -1,0 +1,34 @@
+{
+    "name": "react-admin-firebase-typescript-demo",
+    "version": "0.2.0",
+    "private": true,
+    "dependencies": {
+        "@types/jest": "*",
+        "@types/node": "*",
+        "@types/react": "*",
+        "@types/react-dom": "*",
+        "firebase": "*",
+        "ra-input-rich-text": "*",
+        "react": "*",
+        "react-admin": "*",
+        "react-dom": "*",
+        "react-admin-firebase": "*",
+        "react-scripts": "*",
+        "typescript": "*"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}
