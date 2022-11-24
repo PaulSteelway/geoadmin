@@ -1,5 +1,5 @@
 import * as React from "react";
-import { PostList, PostShow, PostCreate, PostEdit } from "./posts";
+// import { PostList, PostShow, PostCreate, PostEdit } from "./posts";
 import { Admin, Resource } from "react-admin";
 import { RegionList, RegionShow, RegionCreate, RegionEdit } from "./regions";
 

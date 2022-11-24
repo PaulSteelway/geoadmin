@@ -1,7 +1,7 @@
 // in src/States.js
 import * as React from "react";
 
-import { PostList, PostShow, PostCreate, PostEdit } from "./posts";
+// import { PostList, PostShow, PostCreate, PostEdit } from "./posts";
 // tslint:disable-next-line:no-var-requires
 import {
   Datagrid,
@@ -66,6 +66,7 @@ export const StateShow = (props: any) => (
         </ReferenceField>
         <TranslatableFields locales={useLoc()} default="en">
           <TextField source="name" />
+          <TextField source="fullname" />
         </TranslatableFields>
       </Tab>
       <Tab label="details" path="state">
@@ -94,6 +95,7 @@ export const StateCreate = (props: any) => (
       </ReferenceInput>
       <TranslatableInputs locales={useLoc()} defaultLocale="en">
         <TextInput source="name" />
+        <TextInput source="fullname" />
         <TextInput source="capital" />
         <TextInput source="religion" />
         <TextInput source="language" />
@@ -123,6 +125,7 @@ export const StateEdit = (props: any) => (
       {/* <DisabledInput source="id" /> */}
       <TranslatableInputs locales={useLoc()} defaultLocale="en">
         <TextInput source="name" />
+        <TextInput source="fullname" />
         <TextInput source="capital" />
         <TextInput source="religion" />
         <TextInput source="language" />

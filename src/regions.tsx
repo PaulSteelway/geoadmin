@@ -2,7 +2,7 @@
 import * as React from 'react';
 
 
-import { PostList, PostShow, PostCreate, PostEdit } from "./posts";
+// import { PostList, PostShow, PostCreate, PostEdit } from "./posts";
 // tslint:disable-next-line:no-var-requires
 import {
   Datagrid,
